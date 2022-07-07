@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maitree&display=swap');
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+html {
+  font-size: 0.0652vw;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    font-family: 'Lora', serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+html {
+  font-size: 0,0652vw;
+}
+
+.sub_section {
+  background-color: #F5F5F5;
+}
+.header {
+  background-color: #7D9F9B;
+  margin-bottom: 33rem;
+  height: 128rem;
+}
+.sub_header {
+  max-width: 1200rem;
+  margin: 0 auto;
+}
+.sub_header h1 {
+  font-size: 50rem;
+  line-height: 64rem;
+  color: #ffff;
+  font-weight: 400;
+  padding-top: 40rem;
+}
+.sub_content {
+  max-width: 1200rem;
+  margin: 0 auto;
+}
+.conteiner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 33rem;
+}
+.img {
+  max-width: 669rem;
+  height: auto;
+}
+.sub_content p {
+  font-family: 'Maitree', serif;
+  font-size: 21rem;
+  line-height: 35rem;
+  color: black;
+  margin-bottom: 200rem;
+}
+.sub_butoon {
+  background-color: #7D9F9B;
+  max-width: 267rem;
+  
+  padding: 20rem 20rem;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 21rem;
+}
+.sub_butoon:hover {
+  background-color: #256d65;
+  transition: 1s;
+}
+.sub_butoon img {
+  max-width: 59rem;
+}
+.sub_butoon h3 {
+  font-size: 33rem;
+  line-height: 42rem;
+  color: #ffff;
+  font-weight: 400;
+}
+.butoon {
+  display: flex;
+  justify-content: end;
+
+  text-decoration: none;
+}
+.icon {
+  position: absolute;
+  top: 700rem;
+  left: 385rem;
+}
+.icon img {
+  max-width: 50rem;
+}
